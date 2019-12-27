@@ -1,0 +1,12 @@
+{
+    "code-runner.executorMap": {
+        "cpp": "cd $dir && g++ -std=c++11 $fileName -o exe/$fileNameWithoutExt.exe && exe/$fileNameWithoutExt.exe",
+    },
+    "files.associations": {
+        "*.tcc": "cpp",
+        "iostream": "cpp",
+        "vector": "cpp",
+        "ostream": "cpp"
+    },
+    "code-runner.runInTerminal": true
+}

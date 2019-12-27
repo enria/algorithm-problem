@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "build and debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\exe\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb32.exe",
+            "preLaunchTask": "build"
+        }
+    ]
+}
