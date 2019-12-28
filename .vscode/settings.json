@@ -6,7 +6,8 @@
         "*.tcc": "cpp",
         "iostream": "cpp",
         "vector": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "new": "cpp"
     },
     "code-runner.runInTerminal": true
 }
