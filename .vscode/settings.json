@@ -7,7 +7,9 @@
         "iostream": "cpp",
         "vector": "cpp",
         "ostream": "cpp",
-        "new": "cpp"
+        "new": "cpp",
+        "iomanip": "cpp",
+        "hash_map": "cpp"
     },
     "code-runner.runInTerminal": true
 }
