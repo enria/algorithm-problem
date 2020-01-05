@@ -1,18 +1,12 @@
 {
     "configurations": [
         {
-            "name": "MinGW",
+            "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**"
             ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ],
-            "cStandard": "c11",
-            "intelliSenseMode": "gcc-x86",
-            "compilerPath": "g++.exe"
+            "defines": [],
+            "compilerPath": "/usr/bin/g++"
         }
     ],
     "version": 4
