@@ -5,9 +5,9 @@ using namespace std;
 
 int main() {
     int decimal;
-    stringstream ss, sss;
+    stringstream ss;
     cin >> decimal;
-    ss << hex << decimal;
+    ss << hex << decimal; // TODO 输出16进制数
     cout << ss.str() << endl;
     return 0;
 }

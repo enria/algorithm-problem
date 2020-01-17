@@ -1,6 +1,6 @@
 {
     "code-runner.executorMap": {
-        "cpp": "cd $dir && g++ -std=c++11 $fileName -o exe/$fileNameWithoutExt.exe && exe/$fileNameWithoutExt.exe",
+        "cpp": "cd $dir && g++ -std=c++11 $fileName -o $fileNameWithoutExt.exe && ./$fileNameWithoutExt.exe",
     },
     "files.associations": {
         "*.tcc": "cpp",
@@ -9,7 +9,12 @@
         "ostream": "cpp",
         "new": "cpp",
         "iomanip": "cpp",
-        "hash_map": "cpp"
+        "hash_map": "cpp",
+        "sstream": "cpp",
+        "iosfwd": "cpp"
     },
-    "code-runner.runInTerminal": true
+    "code-runner.runInTerminal": true,
+    "files.exclude": {
+        "**/*.exe": true
+    }
 }
