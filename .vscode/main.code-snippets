@@ -1,0 +1,17 @@
+{
+	"Main Template": {
+		"scope": "cpp",
+		"prefix": "mtemp",
+		"body": [
+			"#include <iostream>",
+            "",
+			"using namespace std;",
+			"",
+			"int main()",
+			"{",
+			"    return 0;",
+			"}"
+		],
+		"description": "Main template"
+	}
+}
