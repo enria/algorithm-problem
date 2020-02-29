@@ -17,6 +17,8 @@
     "C_Cpp.autoAddFileAssociations": false,
     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4 }",
     "files.exclude": {
-        "**/*.exe": true
-    }
+        "**/*.exe": true,
+        "**/tempCodeRunnerFile*":true
+    },
+    "python.pythonPath": "/usr/bin/python3"
 }

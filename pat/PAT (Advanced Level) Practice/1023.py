@@ -1,0 +1,6 @@
+s1=input()
+s2_o=str(int(s1)*2)
+s1=sorted(s1)
+s2=sorted(s2_o)
+print("Yes" if s1==s2 else "No")
+print(s2_o)
